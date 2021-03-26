@@ -1,21 +1,25 @@
+import math
+
 class MinHeap:
-    
+
     def __init__(self, array=[]):
 
         self.heap_arr = array
         
-        self.heapify(self.array)
+        self.heapify(self.heap_arr)
+
+
     
     def heapify(self, heap_arr):
         
-        for i in range(len(heap_arr)): #Sink each element in array to its position
+        for i in range(len(heap_arr)-1 , -1, -1): #Sink each element in array to its position
             
-            self.sink_root(heap_arr)
-    
-    
-    def sink_root(heap_arr):
+            self.sink_node(heap_arr, i)
         
-        i = 0 
+    
+    def sink_node(self, heap_arr, start_ind):
+        
+        i = start_ind
         
         while True:
             
@@ -42,6 +46,7 @@ class MinHeap:
                 i = min_child_pos #Update the new index of the current node
             
             else: #This means current node is smaller than its child and can be kept in the same place
+                
                 break
     
     def add_element(self, new_element):
@@ -49,14 +54,91 @@ class MinHeap:
         self.heap_arr.append(new_element)
         
         self.float_up(self.heap_arr)
+
     
     def float_up(self, heap_arr):
         
-        i = len(heap_arr) - 1
+        i = len(heap_arr) - 1 #Start at the end
+
+        while True:
+
+            ##Find the parent position
+            temp_parent = i/2
+
+            if temp_parent % 1 == 0 : #If right child then need to minus 1 
+
+                parent_pos = temp_parent - 1
+
+                if parent_pos <= 0: #This mean current node is parent
+
+                    break
+
+            else: #This means left child 
+
+                parent_pos = int(math.floor(temp_parent))
+                        
+            ##Compare and swap with parent
+            if heap_arr[parent_pos] > heap_arr[i]:
+
+                heap_arr[i], heap_arr[parent_pos] = heap_arr[parent_pos], heap_arr[i]
+
+                i = parent_pos
+            
+            else:#Means node is in correct position
+
+                break
+    
+    def extract_min(self):
+
+        extracted_min = self.heap_arr[0]
+
+        ##Reestablish heap property by moving last element to root and letting it sink
+        self.heap_arr[0] = self.heap_arr[-1]
+
+        self.heap_arr.pop()
+
+        self.sink_node(self.heap_arr, 0)
+
+        return extracted_min
+
+    
+    def insert_item(self, new_item):
+
+        self.heap_arr.append(new_item)
+
+        ##Reestablish heap property by floating new element up to where it belongs
+        self.float_up(self.heap_arr)
+
+
+
+
+        
+
+        
+
+
+
+
+            
+
+
+            
+
+        
+
+                
+
+
              
                 
-                
-            
+#[0,1,2,3,4] floor(index/2)
+# 
+#               0
+#           1       2
+#       3      4 
+# 
+# 
+#    
             
             
             
