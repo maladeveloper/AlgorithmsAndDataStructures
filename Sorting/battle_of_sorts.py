@@ -6,8 +6,20 @@ from merge_sort import merge_sort
 from bubble_sort import bubble_sort
 from quick_sort import quick_sort
 from heap_sort import heap_sort
+import logging
+import datetime
 
-tester_arr = random.sample(range(1, 10000000), 15000)
+##Variables
+results_fname = "sorts_compared_log.txt"
+##
+logging.basicConfig(level=logging.INFO,
+    format="%(message)s",
+    handlers=[
+        logging.FileHandler(results_fname),
+        logging.StreamHandler()
+    ])
+
+tester_arr = random.sample(range(1, 10000000), 30000)
 
 sorted_arr = tester_arr[:]
 
@@ -36,11 +48,13 @@ battle_sorting_contestents = {
     "Built-In Sort": built_in_sort
 }
 
+logging.info(f'''===================================================\n{datetime.datetime.now()}\n\nSorting {len(tester_arr)} elements in array...\n''')
+
 for name, sort_func in battle_sorting_contestents.items():
 
     copy_arr = tester_arr[:]
 
-    print(f'''-----------------------------------------------\nSort: {name}''')
+    logging.info(f'''-----------------------------------------------\nSort: {name}''')
 
     t0 = time.time()
 
@@ -56,7 +70,7 @@ for name, sort_func in battle_sorting_contestents.items():
 
         status = "PASS"
     
-    print(f'''Test Status: {status}\nSort Runtime: {t_delta}\n-----------------------------------------------\n''')
+    logging.info(f'''Test Status: {status}\nSort Runtime: {t_delta} (sec)\n-----------------------------------------------\n''')
 
 
-    
+logging.info(f'''===================================================\n''')
