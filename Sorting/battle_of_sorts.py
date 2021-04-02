@@ -5,6 +5,7 @@ from selection_sort import selection_sort
 from merge_sort import merge_sort
 from bubble_sort import bubble_sort
 from quick_sort import quick_sort
+from heap_sort import heap_sort
 
 tester_arr = random.sample(range(1, 10000000), 15000)
 
@@ -28,7 +29,9 @@ battle_sorting_contestents = {
 
     "Bubble Sort": bubble_sort, 
 
-    "Quick Sort": quick_sort, 
+    "Quick Sort": quick_sort,
+
+    "Heap Sort": heap_sort, 
 
     "Built-In Sort": built_in_sort
 }
