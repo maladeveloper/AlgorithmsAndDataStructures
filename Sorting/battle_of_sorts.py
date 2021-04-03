@@ -12,7 +12,8 @@ import datetime
 ##Variables
 results_fname = "sorts_compared_log.txt"
 ##
-logging.basicConfig(level=logging.INFO,
+logging.basicConfig(
+    level=logging.INFO,
     format="%(message)s",
     handlers=[
         logging.FileHandler(results_fname),
