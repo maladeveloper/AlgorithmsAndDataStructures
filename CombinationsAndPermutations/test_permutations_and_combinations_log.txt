@@ -1,5 +1,5 @@
 ======================================================================================================
-2021-04-04 18:25:11.460276
+2021-04-05 07:38:43.011720
 RUNNING...
 
 
@@ -128,11 +128,11 @@ Built-In Implementation Time:0.0(sec)
  ('x', 'y', 'y'),
  ('y', 'y', 'y')}
 Status:PASS
-My Implementation Time:0.0(sec)
+My Implementation Time:0.0009262561798095703(sec)
 Built-In Implementation Time:0.0(sec)
 
 ----------------------Combinations without Repetitions------------------------------------
-{('b', 'x', 'y'), ('a', 'x', 'y'), ('a', 'b', 'y'), ('a', 'b', 'x')}
+{('a', 'x', 'y'), ('a', 'b', 'x'), ('b', 'x', 'y'), ('a', 'b', 'y')}
 Status:PASS
 My Implementation Time:0.0(sec)
 Built-In Implementation Time:0.0(sec)
@@ -197,7 +197,7 @@ My Implementation Time:0.0(sec)
 Built-In Implementation Time:0.0(sec)
 
 ----------------------Combinations without Repetitions------------------------------------
-{('x', 'y'), ('b', 'y'), ('a', 'b'), ('a', 'y'), ('b', 'x'), ('a', 'x')}
+{('a', 'x'), ('x', 'y'), ('b', 'y'), ('b', 'x'), ('a', 'b'), ('a', 'y')}
 Status:PASS
 My Implementation Time:0.0(sec)
 Built-In Implementation Time:0.0(sec)
@@ -237,7 +237,7 @@ r: 3
  ('x', 'x', 'b'),
  ('x', 'x', 'x')}
 Status:PASS
-My Implementation Time:0.0(sec)
+My Implementation Time:0.0009992122650146484(sec)
 Built-In Implementation Time:0.0(sec)
 
 ----------------------Permutations without Repetitions------------------------------------
@@ -269,7 +269,7 @@ Built-In Implementation Time:0.0(sec)
 ----------------------Combinations without Repetitions------------------------------------
 {('a', 'b', 'x')}
 Status:PASS
-My Implementation Time:0.0(sec)
+My Implementation Time:0.0009434223175048828(sec)
 Built-In Implementation Time:0.0(sec)
 
 
@@ -293,19 +293,19 @@ My Implementation Time:0.0(sec)
 Built-In Implementation Time:0.0(sec)
 
 ----------------------Permutations without Repetitions------------------------------------
-{('b', 'a'), ('x', 'a'), ('x', 'b'), ('a', 'b'), ('b', 'x'), ('a', 'x')}
+{('a', 'x'), ('x', 'b'), ('b', 'a'), ('b', 'x'), ('a', 'b'), ('x', 'a')}
 Status:PASS
 My Implementation Time:0.0(sec)
 Built-In Implementation Time:0.0(sec)
 
 ----------------------Combinations with Repetitions---------------------------------------
-{('b', 'b'), ('a', 'a'), ('a', 'b'), ('b', 'x'), ('x', 'x'), ('a', 'x')}
+{('a', 'x'), ('b', 'b'), ('a', 'a'), ('x', 'x'), ('b', 'x'), ('a', 'b')}
 Status:PASS
 My Implementation Time:0.0(sec)
 Built-In Implementation Time:0.0(sec)
 
 ----------------------Combinations without Repetitions------------------------------------
-{('b', 'x'), ('a', 'x'), ('a', 'b')}
+{('a', 'x'), ('b', 'x'), ('a', 'b')}
 Status:PASS
 My Implementation Time:0.0(sec)
 Built-In Implementation Time:0.0(sec)
@@ -319,25 +319,25 @@ r: 6
 ----------------------Permutations with Repetitions---------------------------------------
 Resulting array is not shown since too large.
 Status:PASS
-My Implementation Time:0.3439798355102539(sec)
-Built-In Implementation Time:0.03502178192138672(sec)
+My Implementation Time:0.38388514518737793(sec)
+Built-In Implementation Time:0.04988813400268555(sec)
 
 ----------------------Permutations without Repetitions------------------------------------
 Resulting array is not shown since too large.
 Status:PASS
-My Implementation Time:0.04474902153015137(sec)
-Built-In Implementation Time:0.012691736221313477(sec)
+My Implementation Time:0.06690144538879395(sec)
+Built-In Implementation Time:0.018761634826660156(sec)
 
 ----------------------Combinations with Repetitions---------------------------------------
 Resulting array is not shown since too large.
 Status:PASS
-My Implementation Time:0.6811656951904297(sec)
+My Implementation Time:0.6213891506195068(sec)
 Built-In Implementation Time:0.0(sec)
 
 ----------------------Combinations without Repetitions------------------------------------
 Resulting array is not shown since too large.
 Status:PASS
-My Implementation Time:0.01720881462097168(sec)
+My Implementation Time:0.010072469711303711(sec)
 Built-In Implementation Time:0.0(sec)
 
 
@@ -366,7 +366,7 @@ My Implementation Time:0.0(sec)
 Built-In Implementation Time:0.0(sec)
 
 ----------------------Combinations with Repetitions---------------------------------------
-{('a', 'a', 'b'), ('a', 'b', 'b'), ('a', 'a', 'a'), ('b', 'b', 'b')}
+{('b', 'b', 'b'), ('a', 'a', 'a'), ('a', 'a', 'b'), ('a', 'b', 'b')}
 My Set Len: 4
 Verified Set Len: 10
 {('a', 'a', 'a'),
@@ -383,7 +383,7 @@ Built-In Implementation Time:0.0(sec)
 ----------------------Combinations without Repetitions------------------------------------
 {('a', 'a', 'b')}
 Status:PASS
-My Implementation Time:0.0(sec)
+My Implementation Time:0.0010001659393310547(sec)
 Built-In Implementation Time:0.0(sec)
 ======================================================================================================
 
