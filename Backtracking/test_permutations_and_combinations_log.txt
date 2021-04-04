@@ -1,0 +1,389 @@
+======================================================================================================
+2021-04-04 18:25:11.460276
+RUNNING...
+
+
+Test-Sample-1+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Descripton:Large array with large choice selection (r)
+Array:['a', 'b', 'x', 'y']
+r: 3
+
+----------------------Permutations with Repetitions---------------------------------------
+{('a', 'a', 'a'),
+ ('a', 'a', 'b'),
+ ('a', 'a', 'x'),
+ ('a', 'a', 'y'),
+ ('a', 'b', 'a'),
+ ('a', 'b', 'b'),
+ ('a', 'b', 'x'),
+ ('a', 'b', 'y'),
+ ('a', 'x', 'a'),
+ ('a', 'x', 'b'),
+ ('a', 'x', 'x'),
+ ('a', 'x', 'y'),
+ ('a', 'y', 'a'),
+ ('a', 'y', 'b'),
+ ('a', 'y', 'x'),
+ ('a', 'y', 'y'),
+ ('b', 'a', 'a'),
+ ('b', 'a', 'b'),
+ ('b', 'a', 'x'),
+ ('b', 'a', 'y'),
+ ('b', 'b', 'a'),
+ ('b', 'b', 'b'),
+ ('b', 'b', 'x'),
+ ('b', 'b', 'y'),
+ ('b', 'x', 'a'),
+ ('b', 'x', 'b'),
+ ('b', 'x', 'x'),
+ ('b', 'x', 'y'),
+ ('b', 'y', 'a'),
+ ('b', 'y', 'b'),
+ ('b', 'y', 'x'),
+ ('b', 'y', 'y'),
+ ('x', 'a', 'a'),
+ ('x', 'a', 'b'),
+ ('x', 'a', 'x'),
+ ('x', 'a', 'y'),
+ ('x', 'b', 'a'),
+ ('x', 'b', 'b'),
+ ('x', 'b', 'x'),
+ ('x', 'b', 'y'),
+ ('x', 'x', 'a'),
+ ('x', 'x', 'b'),
+ ('x', 'x', 'x'),
+ ('x', 'x', 'y'),
+ ('x', 'y', 'a'),
+ ('x', 'y', 'b'),
+ ('x', 'y', 'x'),
+ ('x', 'y', 'y'),
+ ('y', 'a', 'a'),
+ ('y', 'a', 'b'),
+ ('y', 'a', 'x'),
+ ('y', 'a', 'y'),
+ ('y', 'b', 'a'),
+ ('y', 'b', 'b'),
+ ('y', 'b', 'x'),
+ ('y', 'b', 'y'),
+ ('y', 'x', 'a'),
+ ('y', 'x', 'b'),
+ ('y', 'x', 'x'),
+ ('y', 'x', 'y'),
+ ('y', 'y', 'a'),
+ ('y', 'y', 'b'),
+ ('y', 'y', 'x'),
+ ('y', 'y', 'y')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Permutations without Repetitions------------------------------------
+{('a', 'b', 'x'),
+ ('a', 'b', 'y'),
+ ('a', 'x', 'b'),
+ ('a', 'x', 'y'),
+ ('a', 'y', 'b'),
+ ('a', 'y', 'x'),
+ ('b', 'a', 'x'),
+ ('b', 'a', 'y'),
+ ('b', 'x', 'a'),
+ ('b', 'x', 'y'),
+ ('b', 'y', 'a'),
+ ('b', 'y', 'x'),
+ ('x', 'a', 'b'),
+ ('x', 'a', 'y'),
+ ('x', 'b', 'a'),
+ ('x', 'b', 'y'),
+ ('x', 'y', 'a'),
+ ('x', 'y', 'b'),
+ ('y', 'a', 'b'),
+ ('y', 'a', 'x'),
+ ('y', 'b', 'a'),
+ ('y', 'b', 'x'),
+ ('y', 'x', 'a'),
+ ('y', 'x', 'b')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Combinations with Repetitions---------------------------------------
+{('a', 'a', 'a'),
+ ('a', 'a', 'b'),
+ ('a', 'a', 'x'),
+ ('a', 'a', 'y'),
+ ('a', 'b', 'b'),
+ ('a', 'b', 'x'),
+ ('a', 'b', 'y'),
+ ('a', 'x', 'x'),
+ ('a', 'x', 'y'),
+ ('a', 'y', 'y'),
+ ('b', 'b', 'b'),
+ ('b', 'b', 'x'),
+ ('b', 'b', 'y'),
+ ('b', 'x', 'x'),
+ ('b', 'x', 'y'),
+ ('b', 'y', 'y'),
+ ('x', 'x', 'x'),
+ ('x', 'x', 'y'),
+ ('x', 'y', 'y'),
+ ('y', 'y', 'y')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Combinations without Repetitions------------------------------------
+{('b', 'x', 'y'), ('a', 'x', 'y'), ('a', 'b', 'y'), ('a', 'b', 'x')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+
+Test-Sample-2+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Descripton:Large array with small choice selection (r)
+Array:['a', 'b', 'x', 'y']
+r: 2
+
+----------------------Permutations with Repetitions---------------------------------------
+{('a', 'a'),
+ ('a', 'b'),
+ ('a', 'x'),
+ ('a', 'y'),
+ ('b', 'a'),
+ ('b', 'b'),
+ ('b', 'x'),
+ ('b', 'y'),
+ ('x', 'a'),
+ ('x', 'b'),
+ ('x', 'x'),
+ ('x', 'y'),
+ ('y', 'a'),
+ ('y', 'b'),
+ ('y', 'x'),
+ ('y', 'y')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Permutations without Repetitions------------------------------------
+{('a', 'b'),
+ ('a', 'x'),
+ ('a', 'y'),
+ ('b', 'a'),
+ ('b', 'x'),
+ ('b', 'y'),
+ ('x', 'a'),
+ ('x', 'b'),
+ ('x', 'y'),
+ ('y', 'a'),
+ ('y', 'b'),
+ ('y', 'x')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Combinations with Repetitions---------------------------------------
+{('a', 'a'),
+ ('a', 'b'),
+ ('a', 'x'),
+ ('a', 'y'),
+ ('b', 'b'),
+ ('b', 'x'),
+ ('b', 'y'),
+ ('x', 'x'),
+ ('x', 'y'),
+ ('y', 'y')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Combinations without Repetitions------------------------------------
+{('x', 'y'), ('b', 'y'), ('a', 'b'), ('a', 'y'), ('b', 'x'), ('a', 'x')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+
+Test-Sample-3+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Descripton:Small array with large choice selection (r)
+Array:['a', 'b', 'x']
+r: 3
+
+----------------------Permutations with Repetitions---------------------------------------
+{('a', 'a', 'a'),
+ ('a', 'a', 'b'),
+ ('a', 'a', 'x'),
+ ('a', 'b', 'a'),
+ ('a', 'b', 'b'),
+ ('a', 'b', 'x'),
+ ('a', 'x', 'a'),
+ ('a', 'x', 'b'),
+ ('a', 'x', 'x'),
+ ('b', 'a', 'a'),
+ ('b', 'a', 'b'),
+ ('b', 'a', 'x'),
+ ('b', 'b', 'a'),
+ ('b', 'b', 'b'),
+ ('b', 'b', 'x'),
+ ('b', 'x', 'a'),
+ ('b', 'x', 'b'),
+ ('b', 'x', 'x'),
+ ('x', 'a', 'a'),
+ ('x', 'a', 'b'),
+ ('x', 'a', 'x'),
+ ('x', 'b', 'a'),
+ ('x', 'b', 'b'),
+ ('x', 'b', 'x'),
+ ('x', 'x', 'a'),
+ ('x', 'x', 'b'),
+ ('x', 'x', 'x')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Permutations without Repetitions------------------------------------
+{('a', 'b', 'x'),
+ ('a', 'x', 'b'),
+ ('b', 'a', 'x'),
+ ('b', 'x', 'a'),
+ ('x', 'a', 'b'),
+ ('x', 'b', 'a')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Combinations with Repetitions---------------------------------------
+{('a', 'a', 'a'),
+ ('a', 'a', 'b'),
+ ('a', 'a', 'x'),
+ ('a', 'b', 'b'),
+ ('a', 'b', 'x'),
+ ('a', 'x', 'x'),
+ ('b', 'b', 'b'),
+ ('b', 'b', 'x'),
+ ('b', 'x', 'x'),
+ ('x', 'x', 'x')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Combinations without Repetitions------------------------------------
+{('a', 'b', 'x')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+
+Test-Sample-4+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Descripton:Small array with small choice selection (r)
+Array:['a', 'b', 'x']
+r: 2
+
+----------------------Permutations with Repetitions---------------------------------------
+{('a', 'a'),
+ ('a', 'b'),
+ ('a', 'x'),
+ ('b', 'a'),
+ ('b', 'b'),
+ ('b', 'x'),
+ ('x', 'a'),
+ ('x', 'b'),
+ ('x', 'x')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Permutations without Repetitions------------------------------------
+{('b', 'a'), ('x', 'a'), ('x', 'b'), ('a', 'b'), ('b', 'x'), ('a', 'x')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Combinations with Repetitions---------------------------------------
+{('b', 'b'), ('a', 'a'), ('a', 'b'), ('b', 'x'), ('x', 'x'), ('a', 'x')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Combinations without Repetitions------------------------------------
+{('b', 'x'), ('a', 'x'), ('a', 'b')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+
+Test-Sample-5+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Descripton:VERY Large array with VERY large choice selection (r) - to test time.
+Array:['a', 'b', 'x', 'c', 'f', 'l', 'v']
+r: 6
+
+----------------------Permutations with Repetitions---------------------------------------
+Resulting array is not shown since too large.
+Status:PASS
+My Implementation Time:0.3439798355102539(sec)
+Built-In Implementation Time:0.03502178192138672(sec)
+
+----------------------Permutations without Repetitions------------------------------------
+Resulting array is not shown since too large.
+Status:PASS
+My Implementation Time:0.04474902153015137(sec)
+Built-In Implementation Time:0.012691736221313477(sec)
+
+----------------------Combinations with Repetitions---------------------------------------
+Resulting array is not shown since too large.
+Status:PASS
+My Implementation Time:0.6811656951904297(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Combinations without Repetitions------------------------------------
+Resulting array is not shown since too large.
+Status:PASS
+My Implementation Time:0.01720881462097168(sec)
+Built-In Implementation Time:0.0(sec)
+
+
+Test-Sample-6+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Descripton:Small array with small choice selection (r) - with repeating values.
+Array:['a', 'b', 'a']
+r: 3
+
+----------------------Permutations with Repetitions---------------------------------------
+{('a', 'a', 'a'),
+ ('a', 'a', 'b'),
+ ('a', 'b', 'a'),
+ ('a', 'b', 'b'),
+ ('b', 'a', 'a'),
+ ('b', 'a', 'b'),
+ ('b', 'b', 'a'),
+ ('b', 'b', 'b')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Permutations without Repetitions------------------------------------
+{('a', 'a', 'b'), ('a', 'b', 'a'), ('b', 'a', 'a')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Combinations with Repetitions---------------------------------------
+{('a', 'a', 'b'), ('a', 'b', 'b'), ('a', 'a', 'a'), ('b', 'b', 'b')}
+My Set Len: 4
+Verified Set Len: 10
+{('a', 'a', 'a'),
+ ('a', 'a', 'b'),
+ ('a', 'b', 'a'),
+ ('a', 'b', 'b'),
+ ('b', 'a', 'a'),
+ ('b', 'b', 'a'),
+ ('b', 'b', 'b')}
+Status:FAIL
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+
+----------------------Combinations without Repetitions------------------------------------
+{('a', 'a', 'b')}
+Status:PASS
+My Implementation Time:0.0(sec)
+Built-In Implementation Time:0.0(sec)
+======================================================================================================
+

@@ -34,13 +34,9 @@ def log(log_str, prettify=False):
         log_str = pformat(log_str)
     
     logging.info(log_str)
-    
-    
-
 ##
 
 graph_reps = [AdjacencyListGraph(), MatrixGraph()]
-
 
 edges = [
     ["M", 2, "L"], 
@@ -58,7 +54,9 @@ edges = [
     ["K", 1, "C"]
 ]
 log("=============================================================================")
+
 log(f'''{datetime.datetime.now()}''')
+
 log(f'''Edges adding to graph...''')
 
 log(edges, True)
@@ -85,3 +83,4 @@ log("\n=========================================================================
 
 ##Save log as md
 shutil.copyfile(log_fname, log_fname.replace("txt", "md"))
+##
