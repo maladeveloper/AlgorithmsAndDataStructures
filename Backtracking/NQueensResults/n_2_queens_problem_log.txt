@@ -1,0 +1,73 @@
+======================================================================================================
+2021-04-05 12:55:09.580442
+
+Problem description: Given a 2x2 grid, how can you place 2 queens such that they do not attack each other?
+Legend:
+	x- Squares under attack by queen
+	Q- Queen
+	#- Available Space
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Current Board~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+# # 
+
+# # 
+----
+
+Queens at Positions: []
+Next Available Queen Positions:[[0, 0], [0, 1], [1, 0], [1, 1]]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Current Board~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+Q x 
+
+x x 
+----
+
+Queens at Positions: [[0, 0]]
+Next Available Queen Positions:[]
+No Available positions to place Queen - BACKTRACK !
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Current Board~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+x Q 
+
+x x 
+----
+
+Queens at Positions: [[0, 1]]
+Next Available Queen Positions:[]
+No Available positions to place Queen - BACKTRACK !
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Current Board~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+x x 
+
+Q x 
+----
+
+Queens at Positions: [[1, 0]]
+Next Available Queen Positions:[]
+No Available positions to place Queen - BACKTRACK !
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Current Board~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----
+x x 
+
+x Q 
+----
+
+Queens at Positions: [[1, 1]]
+Next Available Queen Positions:[]
+No Available positions to place Queen - BACKTRACK !
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+No Solutions exists.

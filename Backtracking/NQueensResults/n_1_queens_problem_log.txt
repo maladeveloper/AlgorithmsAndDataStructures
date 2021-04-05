@@ -1,0 +1,34 @@
+======================================================================================================
+2021-04-05 12:55:09.571455
+
+Problem description: Given a 1x1 grid, how can you place 1 queens such that they do not attack each other?
+Legend:
+	x- Squares under attack by queen
+	Q- Queen
+	#- Available Space
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Current Board~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--
+# 
+--
+
+Queens at Positions: []
+Next Available Queen Positions:[[0, 0]]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Current Board~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--
+Q 
+--
+
+Queens at Positions: [[0, 0]]
+Next Available Queen Positions:[]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Solution has be found!
+
+--
+Q 
+--
+

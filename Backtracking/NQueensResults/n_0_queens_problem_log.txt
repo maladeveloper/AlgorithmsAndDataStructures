@@ -1,0 +1,16 @@
+======================================================================================================
+2021-04-05 12:55:09.566468
+
+Problem description: Given a 0x0 grid, how can you place 0 queens such that they do not attack each other?
+Legend:
+	x- Squares under attack by queen
+	Q- Queen
+	#- Available Space
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Current Board~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Queens at Positions: []
+Next Available Queen Positions:[]
+No Solutions exists.
