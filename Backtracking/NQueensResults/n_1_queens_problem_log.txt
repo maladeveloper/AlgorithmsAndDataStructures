@@ -1,5 +1,5 @@
 ======================================================================================================
-2021-04-05 13:04:33.056757
+2021-04-05 15:01:03.296146
 
 Problem description: Given a 1x1 grid, how can you place 1 queens such that they do not attack each other?
 Legend:

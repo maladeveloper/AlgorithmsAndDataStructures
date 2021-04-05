@@ -200,6 +200,10 @@ class QueensNProblemGrid(Grid):
         
             for pos in next_positions:
 
+                if len(final_positions) != 0:
+
+                    return
+
                 next_part_sols = partial_sol[:]
 
                 next_part_sols.append(pos)
@@ -215,7 +219,7 @@ class QueensNProblemGrid(Grid):
             for col in range(self.N):
 
                 all_starting_positions.append([row, col])
-
+        
         recurse_queens([], all_starting_positions)
 
         ##If there is no final positions then the queens cannot be placed on board.
