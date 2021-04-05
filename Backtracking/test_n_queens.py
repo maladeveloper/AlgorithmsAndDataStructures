@@ -4,7 +4,7 @@ import shutil
 
 ##Variables 
 result_dir_folder = "NQueensResults"
-num_max_queens = 5
+num_max_queens = 10
 ##
 
 ##Remove the folder if there since it would have the old solutions

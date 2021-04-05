@@ -1,5 +1,5 @@
 ======================================================================================================
-2021-04-05 12:55:09.580442
+2021-04-05 13:04:33.063740
 
 Problem description: Given a 2x2 grid, how can you place 2 queens such that they do not attack each other?
 Legend:

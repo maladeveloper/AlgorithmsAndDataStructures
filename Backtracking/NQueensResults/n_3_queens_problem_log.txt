@@ -1,5 +1,5 @@
 ======================================================================================================
-2021-04-05 12:55:09.595394
+2021-04-05 13:04:33.078705
 
 Problem description: Given a 3x3 grid, how can you place 3 queens such that they do not attack each other?
 Legend:

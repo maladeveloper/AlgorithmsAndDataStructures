@@ -1,5 +1,5 @@
 ======================================================================================================
-2021-04-05 12:55:09.566468
+2021-04-05 13:04:33.050774
 
 Problem description: Given a 0x0 grid, how can you place 0 queens such that they do not attack each other?
 Legend:
